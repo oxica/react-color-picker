@@ -17,7 +17,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  transition: transform 300ms linear;
+  transition: transform 250ms linear;
 }
 
 .active {
