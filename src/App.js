@@ -1,4 +1,4 @@
-import ColorPicker from "./components/ColorPicker";
+import ColorPicker from "./components/ColorPicker/ColorPicker";
 
 const colorPickerOptions = [
   { label: "red", color: "#F44336" },
