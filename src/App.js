@@ -11,7 +11,17 @@ const colorPickerOptions = [
 
 function App() {
   return (
-    <div>
+    <div
+      style={{
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: 25,
+        textTransform: "uppercase",
+        color: "#010101",
+      }}
+    >
       <ColorPicker options={colorPickerOptions} />
     </div>
   );
